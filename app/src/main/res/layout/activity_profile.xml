@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main.profile.ProfileActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="32dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/name"
+            android:textSize="24sp"
+            app:fontFamily="@font/ubuntu_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_truck"
+            android:drawableLeft="@drawable/ic_truck"
+            android:drawablePadding="8dp"
+            android:text="@string/alc_track"
+            android:textSize="20sp"
+            app:fontFamily="@font/ubuntu_regular" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_flag"
+            android:drawableLeft="@drawable/ic_flag"
+            android:drawablePadding="8dp"
+            android:text="@string/country"
+            android:textSize="20sp"
+            app:fontFamily="@font/ubuntu_regular" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_email"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="8dp"
+            android:text="@string/email_address"
+            android:textSize="20sp"
+            app:fontFamily="@font/ubuntu_regular" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_smartphone"
+            android:drawableLeft="@drawable/ic_smartphone"
+            android:drawablePadding="8dp"
+            android:text="@string/phone_number"
+            android:textSize="20sp"
+            app:fontFamily="@font/ubuntu_regular" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:drawableStart="@drawable/ic_slack"
+            android:drawableLeft="@drawable/ic_slack"
+            android:drawablePadding="8dp"
+            android:text="@string/slack_username"
+            android:textSize="20sp"
+            app:fontFamily="@font/ubuntu_regular" />
+
+    </LinearLayout>
+
+</LinearLayout>

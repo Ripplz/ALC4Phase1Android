@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+    <string name="welcome_text">Welcome to Andela ALC 4.0!</string>
+    <string name="label_about">About ALC</string>
+    <string name="label_profile">My Profile</string>
+    <string name="slack_username">\@yorubadev</string>
+    <string name="phone_number">+2348107441596</string>
+    <string name="email_address">ojostephendev@gmail.com</string>
+    <string name="country">Nigeria</string>
+    <string name="alc_track">Android</string>
+    <string name="name">Stephen Ojo</string>
+    <string name="app_name_launcher">ALC4Phase1</string>
+</resources>
